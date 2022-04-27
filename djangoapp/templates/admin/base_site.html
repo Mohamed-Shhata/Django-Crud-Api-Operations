@@ -1,0 +1,11 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Hello in my first app</a>
+<b style="margin-left:23rem"> this site is made by Mohamed Ahmed</b>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
