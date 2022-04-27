@@ -1,6 +1,7 @@
 # Django-Crud-Api-Operations
 
 To run the program, you have to install the following dependencies:
+
 python -m venv env
 
 ..\env\Scripts\activate
